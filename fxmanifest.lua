@@ -10,4 +10,4 @@ description "Discord Handler script made for FiveM server which uses alot of Dis
 
 shared_scripts { '@es_extended/imports.lua' }
 server_scripts { '@oxmysql/lib/MySQL.lua', 'shared/*.lua', 'src/server/*.lua' }
-dependencies { 'discordroles' }
+dependencies { 'discordroles', 'es_extended' }
