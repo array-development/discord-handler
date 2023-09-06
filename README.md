@@ -1,5 +1,5 @@
 # AR's World | Discord Handler
 Discord Handler script made for FiveM server which uses alot of Discord API Integration
 
-## Depedencies
+### Depedencies
 - [discordroles](https://github.com/logan-mcgee/discordroles)
