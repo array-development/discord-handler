@@ -5,3 +5,6 @@ This script will save all data if user has access to a specific role in the conf
 
 ### Depedencies
 - [discordroles](https://github.com/logan-mcgee/discordroles)
+
+## Script Usage
+
