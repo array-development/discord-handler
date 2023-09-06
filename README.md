@@ -7,6 +7,7 @@ This script will save all data if user has access to a specific role in the conf
 
 These script will be needed if you want to use this script.
 - [discordroles](https://github.com/logan-mcgee/discordroles)
+- [es_extended](https://github.com/esx-framework/esx_core)
 
 ## Usage
 
