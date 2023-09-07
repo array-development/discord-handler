@@ -69,7 +69,7 @@ checkRoles = function(src)
     for k,v in pairs(hasRoles) do 
         tmpData[src][k]['status'] = hasRoles[k][src]['status']
     end
-    return tmpData
+    return tmpData[src]
 end
 
 getDiscordId = function(src)
