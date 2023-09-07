@@ -35,14 +35,14 @@ end)
 -- // [EXPORTS] \\ --
 
 exports('checkRoles', function(src)
-    tmpData = {}
+    tmpData[src] = {}
     for i=1, #Shared.ReceiveRoles do 
-        tmpData[Shared.ReceiveRoles[i]['label']] = {
+        tmpData[src][Shared.ReceiveRoles[i]['label']] = {
             status = false
         }
     end
     for k,v in pairs(hasRoles) do 
-        tmpData[k]['status'] = hasRoles[k][src]['status']
+        tmpData[src][k]['status'] = hasRoles[k][src]['status']
     end
     return tmpData
 end)
@@ -60,14 +60,14 @@ end)
 -- // [FUNCTIONS] \\ --
 
 checkRoles = function(src)
-    tmpData = {}
+    tmpData[src] = {}
     for i=1, #Shared.ReceiveRoles do 
-        tmpData[Shared.ReceiveRoles[i]['label']] = {
+        tmpData[src][Shared.ReceiveRoles[i]['label']] = {
             status = false
         }
     end
     for k,v in pairs(hasRoles) do 
-        tmpData[k]['status'] = hasRoles[k][src]['status']
+        tmpData[src][k]['status'] = hasRoles[k][src]['status']
     end
     return tmpData
 end
