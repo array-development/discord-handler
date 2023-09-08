@@ -13,12 +13,22 @@ These script will be needed if you want to use this script.
 
 Receive the discordId of the given player.
 ```lua
-local discordId = exports['discord-handler']:checkRoles(source)
+local discordId = exports['discord-handler']:getDiscordId(source)
+```
+
+Receive the Discord username and Discord profilepicture in a double variable.
+```lua
+local discordUsername, discordProfilePicture = exports['discord-handler']:getPlayerDiscordData(source)
 ```
 
 Receive all roles of the player in a table.
 ```lua
-local discordRoles = exports['discord-handler']:getDiscordId(source)
+local discordRoles = exports['discord-handler']:checkRoles(source)
+```
+
+Receive a specific role of the player in a boolean.
+```lua
+local discordRoles = exports['discord-handler']:checkSpecificRole(source)
 ```
 
 ## Contributing
