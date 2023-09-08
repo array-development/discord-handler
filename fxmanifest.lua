@@ -5,7 +5,7 @@ lua54 "yes"
 
 name "aw-discordhandler"
 author "AR's World | Array"
-version "1.0.0"
+version "1.1.0"
 description "Discord Handler script made for FiveM server which uses alot of Discord API Integration"
 
 shared_scripts { '@es_extended/imports.lua' }
