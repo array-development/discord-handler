@@ -1,4 +1,4 @@
-# AR's World | Discord Handler
+# Array's Development | Discord Handler
 
 Discord Handler script made for FiveM server which uses alot of Discord API Integration.
 This script will save all data if user has access to a specific role in the configurable Discord server.
